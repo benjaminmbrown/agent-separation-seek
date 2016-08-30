@@ -23,7 +23,7 @@ function setup() {
 
 function draw() {
     background(255);
-    path.display()
+    //path.display()
     var mouse = createVector(mouseX, mouseY);
     for (var i = 0; i < vehicles.length; i++) {
 

@@ -27,14 +27,6 @@ var Vehicle = function(x, y, maxSpeed, maxForce, width, height) {
         this.applyForce(separationForce);
         this.applyForce(seekForce);
 
-          // vehicles[i].followFlow(flowfield);
-        //vehicles[i].separate(vehicles);
-        //vehicles[i].wander();
-
-        //  vehicles[i].followPath(path);
-        //vehicles[i].seek(mouse);s
-
-
     }
 
     this.run = function() {
